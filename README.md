@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# Fish Quiz
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description:
 
-## Available Scripts
+Fish Quiz is a React app designed to test general fish knowledge. This app was designed for Harvard CS50's Final Project.
 
-In the project directory, you can run:
+This project was inspired by the Marine Conservation Society's quiz: ["How much do you know about fish?"](https://8rjae5r2z61.typeform.com/to/wGIgZsJ2?typeform-source=www.linkedin.com). I stumbled across this quiz and, as a self-proclaimed fish nerd, I could not resist the chance to show off my skills. I scored 13/15, disappointing for certain, but I the only two I got wrong were about UK-specific conservation issues so I didn't get let myself get too down about the less-than-perfect score. My biggest takeaway from the quiz was how much I enjoyed the overall experience. Appealing topic aside, I found that the UI/UX was fantastic, the artwork was beautiful (there's digital fish drawings accompanying most of the questions), and the functionality was fantastic. I decided that I would like to recreate it, but with questions that were more catered towards the marine environment that I'm most familiar with: the Northeast Pacific. It would also give me an opportunity to do some of my own digital fish drawings and try on that illustration style. 
 
-### `npm start`
+When faced with the prospect of designing a final project for my Harvard CS50 course, I decided that this would be the perfect opportunity to try out my version of this fish quiz.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Why React? React is a SPA (single page application) that updates its UI in place, rather than essentially replacing the entire web page every time the user interacts with it. In other words, it is a JavaScript library that allows for dynamic UIs. I chose to use this library because I wanted the ability to transition between components (one question at a time) without reloading the page. React's State Hooks would allow user input to persist without having to store the answers to a database.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies
 
-### `npm test`
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
-### `npm run build`
+## Credits
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Marine Conservation Society's quiz: ["How much do you know about fish?"](https://8rjae5r2z61.typeform.com/to/wGIgZsJ2?typeform-source=www.linkedin.com)
