@@ -3,7 +3,9 @@ import './App.css';
 function App() {
   return (
     <div>
-      <div>Fish Quiz</div>
+      <div class="App">
+        <h1>Fish Quiz</h1>
+      </div>
     </div>
   );
 };
