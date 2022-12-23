@@ -2,6 +2,7 @@ import './App.css';
 import QuestionPage from '../Question/QuestionPage';
 import AnswerPage from '../Answer/AnswerPage';
 import ResultPage from '../Result/ResultPage';
+import { quesAns } from '../../data';
 
 function App() {
 
@@ -9,7 +10,7 @@ function App() {
     <div>
       <div class="App">
         <h1>Fish Quiz</h1>
-        < QuestionPage />
+        < QuestionPage quesAns={ quesAns }/>
         < AnswerPage />
         < ResultPage />
       </div>

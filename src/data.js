@@ -117,3 +117,8 @@ const quesAns = [
         ]
     },
 ]
+
+module.exports = {
+    quesAns,
+}
+
