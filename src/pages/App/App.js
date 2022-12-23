@@ -17,11 +17,11 @@ function App() {
         {quizStatus == "landing"?
           <>
             <h1>Fish Quiz</h1>
-            <LandingPage />
+            <LandingPage setQuizStatus={setQuizStatus} />
           </>
           :
           <Routes>
-            < Route path="/question" element={<QuestionPage quesAns={quesAns} setQuizStatus={setQuizStatus}/>} />
+            < Route path="/question" element={<QuestionPage quesAns={quesAns} />} />
             < Route path="/answer" element={<AnswerPage />} />
             < Route path="/result" element={<ResultPage />} />
           </Routes>

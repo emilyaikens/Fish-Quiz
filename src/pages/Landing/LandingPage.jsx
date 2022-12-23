@@ -1,14 +1,21 @@
 import './LandingPage.css';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 
-export default function LandingPage() {
+export default function LandingPage({ setQuizStatus }) {
+
+    const navigate = useNavigate();
+
+    function handleSetQuiz(evt) {
+        evt.preventDefault();
+        setQuizStatus("question");
+        navigate("/question");
+    }
+
     return (
         <div>
             <h1>Landing Page</h1>
-            <Link to={`/question`}>
-                <button>Start</button>
-            </Link>
+            <button onClick={handleSetQuiz}>Start</button>
         </div>
     )
 };
