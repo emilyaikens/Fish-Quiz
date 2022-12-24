@@ -1,11 +1,11 @@
 const quesAns = [
     {
-        "question": "What is the oldest species of fish?",
+        "question": "Which of these fish do not form schools?",
         "answer": [
-            "Koi",
-            "Rockfish",
-            "Guppy",
-            "Greenland Shark"
+            "Tuna",
+            "Anchovies",
+            "Sculpin",
+            "Mackerel"
         ]
     },
     {
@@ -14,114 +14,114 @@ const quesAns = [
             "A sedimentary marine rock",
             "A species of fish described as a 'living fossil'",
             "The inner ear bone of a fish",
-            "d2"
+            "A coral-like structure created by cold-water fish"
         ]
     },    
     {
-        "question": "q3",
+        "question": "What do fish use swim bladders for?",
         "answer": [
-            "a3",
-            "b3",
-            "c3",
-            "d3"
+            "Maintaining buoyancy",
+            "Storing nitrogenous waste",
+            "A defense mechanism",
+            "Reproduction"
         ]
     },    
     {
-        "question": "q4",
+        "question": "Approximately how many described fish species are there?",
         "answer": [
-            "a4",
-            "b4",
-            "c4",
-            "d4"
+            "10,000",
+            "20,000",
+            "50,000",
+            "80,000"
         ]
     },    
     {
-        "question": "q5",
+        "question": "How can you tell how old a fish is?",
         "answer": [
-            "a5",
-            "b5",
-            "c5",
-            "d5"
+            "Otoliths",
+            "Scales",
+            "Fin Rays",
+            "All of the above"
         ]
     },    
     {
-        "question": "q6",
+        "question": "What does it mean if a fish is anadromous?",
         "answer": [
-            "a6",
-            "b6",
-            "c6",
-            "d6"
+            "It migrates from the freshwater to the ocean to spawn",
+            "It migrates from the ocean to freshwater to spawn",
+            "It migrates from the Southern Hemisphere to the Northern Hemisphere to spawn",
+            "It migrates from the Northern Hemisphere to the Southern Hemisphere to spawn"
         ]
     },    
     {
-        "question": "q7",
+        "question": "Which of these fish has a cartilaginous skeleton??",
         "answer": [
-            "a7",
-            "b7",
-            "c7",
-            "d7"
+            "Yellowtail Rockfish",
+            "Swordfish",
+            "Great White Shark",
+            "Hagfish"
         ]
     },    
     {
-        "question": "q8",
+        "question": "What percentage of fish are considered to be overexploided or overfished?",
         "answer": [
-            "a8",
-            "b8",
-            "c8",
-            "d8"
+            "30%",
+            "50%",
+            "70%",
+            "90%"
         ]
     },    
     {
-        "question": "q9",
+        "question": "Where is the adipose fin?",
         "answer": [
-            "a9",
-            "b9",
-            "c9",
-            "d9"
+            "a",
+            "b",
+            "c",
+            "d"
         ]
     },    
     {
-        "question": "q10",
+        "question": "Global fish stocks are at ____% of their historic numbers",
         "answer": [
-            "a10",
-            "b10",
-            "c10",
-            "d10"
+            "70%",
+            "50%",
+            "30%",
+            "10%"
         ]
     },    
     {
-        "question": "q11",
+        "question": "What type of fish is this?",
         "answer": [
-            "a11",
-            "b11",
-            "c11",
-            "d11"
+            "salmon",
+            "cod",
+            "rockfish",
+            "sculpin"
         ]
     },    
     {
-    "question": "q12",
-    "answer": [
-        "a12",
-        "b12",
-        "c12",
-        "d12"
-        ]
+        "question": "Which of these fish gives live birth?",
+        "answer": [
+            "Perch",
+            "Herring",
+            "Sunfish",
+            "Horn shark"
+            ]
     },
 ]
 
 const correctAnswers = [
-    "Greenland Shark",
+    "Sculpin",
     "The inner ear bone of a fish",
-    "a3",
-    "a4",
-    "b5",
-    "b6",
-    "b7",
-    "b8",
-    "c9",
-    "c10",
-    "c11",
-    "c12",
+    "Maintaining buoyancy",
+    "20,000",
+    "All of the above",
+    "It migrates from the ocean to freshwater to spawn",
+    "Great White Shark",
+    "90%",
+    "a",
+    "10%",
+    "rockfish",
+    "Perch",
 ]
 
 const explanations = [
