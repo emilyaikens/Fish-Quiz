@@ -16,11 +16,16 @@ export default function AnswerPage({ current, setCurrent, correctAnswers, choice
         }
     }
 
+    let message = "Correct!";
+
+    if (choices !== correctAnswers[current]) {
+        message = "Not quite. The correct answer is:"
+    }
+
     return (
         <div>
-            <div> temp: {score}</div>
             <h1>Answer Page</h1>
-            <div>The correct answer is: </div>
+            <div>{message}</div>
             <div>{correctAnswers[current]}</div>
             <button onClick={handleClick}>Next</button>
         </div>
