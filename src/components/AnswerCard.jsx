@@ -1,15 +1,16 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 export default function AnswerCard({ answer, choices, setChoices }) {
+
+    const navigate = useNavigate();
 
     const [input, setInput] = useState("");
 
     function handleAddChoice(evt) {
         evt.preventDefault();
         setChoices([...choices, input]);
-        
-        console.log(input);
-        console.log(choices);
+        navigate("/answer");
     }
 
     return (
