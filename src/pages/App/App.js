@@ -5,6 +5,7 @@ import ResultPage from '../Result/ResultPage';
 import LandingPage from '../Landing/LandingPage';
 import { quesAns } from '../../data';
 import { correctAnswers } from '../../data';
+import { explanations } from '../../data';
 import { Routes, Route } from 'react-router-dom';
 import { useState } from 'react';
 
@@ -26,7 +27,7 @@ function App() {
           :
           <Routes>
             < Route path="/question" element={<QuestionPage quesAns={quesAns} choices={choices} setChoices={setChoices} current={current} setCurrent={setCurrent} setScore={setScore} score={score} correctAnswers={correctAnswers} />} />
-            < Route path="/answer" element={<AnswerPage correctAnswers={correctAnswers} choices={choices} current={current} setCurrent={setCurrent} setScore={setScore} score={score} />} />
+            < Route path="/answer" element={<AnswerPage correctAnswers={correctAnswers} choices={choices} current={current} setCurrent={setCurrent} setScore={setScore} score={score} explanations={explanations} />} />
             < Route path="/result" element={<ResultPage score={score} setQuizStatus={setQuizStatus}/>} />
           </Routes>
         }

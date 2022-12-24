@@ -2,7 +2,7 @@ import './AnswerPage.css';
 import { React } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-export default function AnswerPage({ current, setCurrent, correctAnswers, choices, setScore, score }) {
+export default function AnswerPage({ current, setCurrent, correctAnswers, choices, setScore, score, explanations }) {
 
     const navigate = useNavigate();
 
@@ -27,6 +27,7 @@ export default function AnswerPage({ current, setCurrent, correctAnswers, choice
             <h1>Answer Page</h1>
             <div>{message}</div>
             <div>{correctAnswers[current]}</div>
+            <div>{explanations[current]}</div>
             <button onClick={handleClick}>Next</button>
         </div>
     )
