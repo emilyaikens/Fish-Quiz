@@ -8,8 +8,12 @@ export default function AnswerPage({ current, setCurrent, correctAnswers, choice
 
     function handleClick(evt) {
         evt.preventDefault();
-        setCurrent(current + 1);
-        navigate("/question");
+        if (current < 11) {
+            setCurrent(current + 1);
+            navigate("/question")
+        } else {
+            navigate("/result");
+        }
     }
 
     return (

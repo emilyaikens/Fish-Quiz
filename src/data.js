@@ -99,15 +99,6 @@ const quesAns = [
         ]
     },    
     {
-        "question": "q1",
-        "answer": [
-            "a1",
-            "b1",
-            "c1",
-            "d1"
-        ]
-    },
-    {
     "question": "q12",
     "answer": [
         "a12",
