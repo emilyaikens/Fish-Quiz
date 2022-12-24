@@ -2,13 +2,13 @@ import './QuestionPage.css';
 import QuestionCard from '../../components/QuestionCard';
 import AnswerCard from '../../components/AnswerCard';
 
-export default function QuestionPage({ quesAns }) {
+export default function QuestionPage({ quesAns, choices, setChoices }) {
 
     const questions = quesAns.map((value, index) =>
-        <QuestionCard key={index} index={index} question={value.question} />)
+        <QuestionCard key={index + 100} index={index} question={value.question} />)
 
     const answers = quesAns.map((value, index) =>
-        <AnswerCard key={index} index={index} answer={value.answer} />)
+        <AnswerCard key={index} index={index} answer={value.answer} setChoices={setChoices} choices={choices}/>)
 
     return (
         <div>
