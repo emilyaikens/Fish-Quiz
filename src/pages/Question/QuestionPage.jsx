@@ -12,10 +12,10 @@ export default function QuestionPage({ quesAns, choices, setChoices, current, se
 
     return (
         <div>
-            <h1>Question Page</h1>
-            { questions[current] }
+            <h1>Question { current + 1 }</h1>
+            <div>{ questions[current] }</div>
             <br/>
-            { answers[current] }
+            <div>{ answers[current] }</div>
         </div>
     )
 };
