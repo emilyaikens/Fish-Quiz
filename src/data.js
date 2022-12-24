@@ -124,8 +124,24 @@ const correctAnswers = [
     "c12",
 ]
 
+const explanations = [
+    "exp a1",
+    "exp a2",
+    "exp a3",
+    "exp a4",
+    "exp b5",
+    "exp b6",
+    "exp b7",
+    "exp b8",
+    "exp c9",
+    "exp c10",
+    "exp c11",
+    "exp c12",
+]
+
 module.exports = {
     quesAns,
     correctAnswers,
+    explanations,
 }
 
