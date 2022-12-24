@@ -26,8 +26,8 @@ function App() {
           </>
           :
           <Routes>
-            < Route path="/question" element={<QuestionPage quesAns={quesAns} choices={choices} setChoices={setChoices} current={current} setCurrent={setCurrent} setScore={setScore} score={score} correctAnswers={correctAnswers} />} />
-            < Route path="/answer" element={<AnswerPage correctAnswers={correctAnswers} choices={choices} current={current} setCurrent={setCurrent} setScore={setScore} score={score} explanations={explanations} />} />
+            < Route path="/question" element={<QuestionPage quesAns={quesAns} choices={choices} setChoices={setChoices} current={current} setScore={setScore} score={score} correctAnswers={correctAnswers} />} />
+            < Route path="/answer" element={<AnswerPage correctAnswers={correctAnswers} choices={choices} current={current} setCurrent={setCurrent} explanations={explanations} />} />
             < Route path="/result" element={<ResultPage score={score} setQuizStatus={setQuizStatus}/>} />
           </Routes>
         }

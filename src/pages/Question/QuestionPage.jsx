@@ -2,7 +2,7 @@ import './QuestionPage.css';
 import QuestionCard from '../../components/QuestionCard';
 import AnswerCard from '../../components/AnswerCard';
 
-export default function QuestionPage({ quesAns, choices, setChoices, current, setCurrent, setScore, score, correctAnswers }) {
+export default function QuestionPage({ quesAns, choices, setChoices, current, setScore, score, correctAnswers }) {
 
     const questions = quesAns.map((value, index) =>
         <QuestionCard key={index + 100} index={index} question={value.question} />)

@@ -2,7 +2,7 @@ import './AnswerPage.css';
 import { React } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-export default function AnswerPage({ current, setCurrent, correctAnswers, choices, setScore, score, explanations }) {
+export default function AnswerPage({ current, setCurrent, correctAnswers, choices, explanations }) {
 
     const navigate = useNavigate();
 
