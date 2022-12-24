@@ -13,6 +13,7 @@ function App() {
   const [quizStatus, setQuizStatus] = useState("landing");
   const [choices, setChoices] = useState("");
   const [current, setCurrent] = useState(0);
+  const [score, setScore] = useState(0);
 
   return (
     <div>
@@ -24,9 +25,9 @@ function App() {
           </>
           :
           <Routes>
-            < Route path="/question" element={<QuestionPage quesAns={quesAns} choices={choices} setChoices={setChoices} current={current} setCurrent={setCurrent}/>} />
-            < Route path="/answer" element={<AnswerPage correctAnswers={correctAnswers} choices={choices} setChoices={setChoices} current={current} setCurrent={setCurrent} />} />
-            < Route path="/result" element={<ResultPage />} />
+            < Route path="/question" element={<QuestionPage quesAns={quesAns} choices={choices} setChoices={setChoices} current={current} setCurrent={setCurrent} setScore={setScore} score={score} correctAnswers={correctAnswers} />} />
+            < Route path="/answer" element={<AnswerPage correctAnswers={correctAnswers} choices={choices} current={current} setCurrent={setCurrent} setScore={setScore} score={score} />} />
+            < Route path="/result" element={<ResultPage score={score} />} />
           </Routes>
         }
       </div>

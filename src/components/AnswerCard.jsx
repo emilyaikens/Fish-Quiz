@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-export default function AnswerCard({ answer, choices, setChoices }) {
-
+export default function AnswerCard({ answer, choices, setChoices, setScore, score, correctAnswers, current }) {
     const navigate = useNavigate();
 
     const [input, setInput] = useState("");
@@ -10,7 +9,9 @@ export default function AnswerCard({ answer, choices, setChoices }) {
     function handleAddChoice(evt) {
         evt.preventDefault();
         setChoices(input);
-        console.log(choices);
+        if (input === correctAnswers[current]) {
+            setScore(score + 1);
+        };
         navigate("/answer");
     }
 
