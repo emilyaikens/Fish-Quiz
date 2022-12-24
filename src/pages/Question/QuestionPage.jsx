@@ -13,9 +13,9 @@ export default function QuestionPage({ quesAns, choices, setChoices, current, se
     return (
         <div>
             <h1>Question Page</h1>
-            { questions[0] }
+            { questions[current] }
             <br/>
-            { answers[0] }
+            { answers[current] }
         </div>
     )
 };

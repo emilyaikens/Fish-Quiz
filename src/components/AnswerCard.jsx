@@ -9,7 +9,8 @@ export default function AnswerCard({ answer, choices, setChoices }) {
 
     function handleAddChoice(evt) {
         evt.preventDefault();
-        setChoices([...choices, input]);
+        setChoices(input);
+        console.log(choices);
         navigate("/answer");
     }
 
