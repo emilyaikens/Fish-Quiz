@@ -1,19 +1,19 @@
 const quesAns = [
     {
-        "question": "q1",
+        "question": "What is the oldest species of fish?",
         "answer": [
-            "a1",
-            "b1",
-            "c1",
-            "d1"
+            "Koi",
+            "Rockfish",
+            "Guppy",
+            "Greenland Shark"
         ]
     },
     {
-        "question": "q2",
+        "question": "What is an otolith?",
         "answer": [
-            "a2",
-            "b2",
-            "c2",
+            "A sedimentary marine rock",
+            "A species of fish described as a 'living fossil'",
+            "The inner ear bone of a fish",
             "d2"
         ]
     },    
@@ -110,8 +110,8 @@ const quesAns = [
 ]
 
 const correctAnswers = [
-    "a1",
-    "a2",
+    "Greenland Shark",
+    "The inner ear bone of a fish",
     "a3",
     "a4",
     "b5",
@@ -125,7 +125,7 @@ const correctAnswers = [
 ]
 
 const explanations = [
-    "exp a1",
+    "The current record for the longest-living fish belongs to the Greenland shark. These incredible animals are estimated to live ~250 - 500 years! Rockfish are also an incredibly long-lived group of fish. One shortraker rockfish caugh in Alaska was reported at just over 200 years old.",
     "exp a2",
     "exp a3",
     "exp a4",
