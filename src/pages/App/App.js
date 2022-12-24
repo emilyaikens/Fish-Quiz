@@ -10,8 +10,8 @@ import { useState } from 'react';
 function App() {
 
   const [quizStatus, setQuizStatus] = useState("landing");
-
   const [choices, setChoices] = useState([]);
+  const [current, setCurrent] = useState(0);
 
   return (
     <div>
@@ -23,8 +23,8 @@ function App() {
           </>
           :
           <Routes>
-            < Route path="/question" element={<QuestionPage quesAns={quesAns} choices={choices} setChoices={setChoices}/>} />
-            < Route path="/answer" element={<AnswerPage />} />
+            < Route path="/question" element={<QuestionPage quesAns={quesAns} choices={choices} setChoices={setChoices} current={current} setCurrent={setCurrent}/>} />
+            < Route path="/answer" element={<AnswerPage choices={choices} setChoices={setChoices} current={current} setCurrent={setCurrent} />} />
             < Route path="/result" element={<ResultPage />} />
           </Routes>
         }

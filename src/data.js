@@ -118,7 +118,23 @@ const quesAns = [
     },
 ]
 
+const correctAnswers = [
+    "a1",
+    "a2",
+    "a3",
+    "a4",
+    "b5",
+    "b6",
+    "b7",
+    "b8",
+    "c9",
+    "c10",
+    "c11",
+    "c12",
+]
+
 module.exports = {
     quesAns,
+    correctAnswers,
 }
 
