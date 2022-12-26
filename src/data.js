@@ -1,11 +1,11 @@
 const quesAns = [
     {
-        "question": "Which of these fish do not form schools?",
+        "question": "What does it mean if a fish is described as 'pelagic'?",
         "answer": [
-            "Tuna",
-            "Anchovies",
-            "Sculpin",
-            "Mackerel"
+            "It lives in the water column",
+            "It lives near the bottom",
+            "It lives in seaweed",
+            "It lives in coral"
         ]
     },
     {
@@ -27,20 +27,20 @@ const quesAns = [
         ]
     },    
     {
-        "question": "Approximately how many described fish species are there?",
+        "question": "Approximately how many described fish species are there in the world?",
         "answer": [
             "10,000",
-            "20,000",
+            "30,000",
             "50,000",
             "80,000"
         ]
     },    
     {
-        "question": "How can you tell how old a fish is?",
+        "question": "How can the age of a fish be determined?",
         "answer": [
             "Otoliths",
             "Scales",
-            "Fin Rays",
+            "Fin rays",
             "All of the above"
         ]
     },    
@@ -63,21 +63,21 @@ const quesAns = [
         ]
     },    
     {
-        "question": "What percentage of fish are considered to be overexploided or overfished?",
+        "question": "How do fish communicate?",
         "answer": [
-            "30%",
-            "50%",
-            "70%",
-            "90%"
+            "Swimming patterns",
+            "Color changes",
+            "Sound",
+            "All of the above"
         ]
     },    
     {
-        "question": "Where is the adipose fin?",
+        "question": "What are barbels?",
         "answer": [
-            "a",
-            "b",
-            "c",
-            "d"
+            "Modified ganoid scales used as armor",
+            "Small fatty fins located between the dorsal and caudal fin",
+            "Fleshy projections often found on the chins and noses of certain fish",
+            "External reproductive appendages found on male sharks, skates and rays"
         ]
     },    
     {
@@ -99,44 +99,44 @@ const quesAns = [
         ]
     },    
     {
-        "question": "Which of these fish gives live birth?",
+        "question": "Where is the operculum?",
         "answer": [
-            "Perch",
-            "Herring",
-            "Sunfish",
-            "Horn shark"
+            "a",
+            "b",
+            "c",
+            "d"
             ]
     },
 ]
 
 const correctAnswers = [
-    "Sculpin",
+    "It lives in the water column",
     "The inner ear bone of a fish",
     "Maintaining buoyancy",
-    "20,000",
+    "30,000",
     "All of the above",
     "It migrates from the ocean to freshwater to spawn",
     "Great White Shark",
-    "90%",
+    "All of the above",
     "a",
     "10%",
     "rockfish",
-    "Perch",
+    "b",
 ]
 
 const explanations = [
-    "The current record for the longest-living fish belongs to the Greenland shark. These incredible animals are estimated to live ~250 - 500 years! Rockfish are also an incredibly long-lived group of fish. One shortraker rockfish caugh in Alaska was reported at just over 200 years old.",
-    "exp a2",
-    "exp a3",
-    "exp a4",
-    "exp b5",
-    "exp b6",
-    "exp b7",
-    "exp b8",
-    "exp c9",
-    "exp c10",
-    "exp c11",
-    "exp c12",
+    "Some examples of pelagic fish are tuna, mackerel, herring, and sunfish. Pelagic fish are often migratory and many pelagic fish species form schools. Conversely, a fish that lives near the bottom would be described as benthic. The terms pelagic and benthic are not specific to fish; these words are just descriptors for zones in the ocean or other body of water. ",
+    "Fish use otoliths for hearing and vestibular function (a sense of equilibrium). Only bony fish have otoliths; sharks, rays and their relatives have a different anatomical paradigm for sensory input. Biologists can count layers of an otolith and determine the age of the fish, similar to counting rings in a tree! The size and shape of otoliths vary immensely between fish species.",
+    "A swim bladder is a gas-filled organ that fish primarily use to control their buoyancy (maintain their position in the water column). Some fish also use their swim bladders to communicate. When a fish is pulled to the surface too quickly, the air in their swim bladders expands and can cause barotrauma. Cartilaginous fish, like sharks and rays, do not have swim bladders. ",
+    "30,000 is a lot of species (more than reptiles, birds, and mammals combined!), but those are just the ones that have been documented! Some scientists estimate that we’ve only discovered about half of the fish species that exist on earth. Only about 20% of the ocean has been well observed and documented, not to mention the unexplored freshwater systems. With over 200 fish species described every year, there is so much left to learn and discover!",
+    "Yup, all of those methods can be used to age a fish! Scales are the most common aging method, since collecting them is non-lethal. Scale growth rings can be counted to determine age, but this method is less reliable as the fish gets older. Otoliths are also common and more accurate, but the otolith aging can usually only be used if the fish is deceased. Some fish species have predictable linear relationships between age and fish rays, but that method does not work for all fish. ",
+    "Salmon are the best known example of anadromy, although lamprey and surgeons are also anadromous. These fish are born in freshwater but migrate to the ocean to mature. They then travel back to freshwater to reproduce. The opposite of this is catadromy. ",
+    "Sharks, rays, skates, sawfish, and ratfish are all examples of cartilaginous fish. Cartilaginous fish are all in a class called Chondrichthyes and share a number of features, including a skeleton made mostly out of cartilage rather than bone.",
+    "Fish can communicate in so many ways! It varies immensely from species to species, but fish can have incredibly complex communication methods. Some cool examples: Rockfish grunt to one another and have a variation in grunt tones and frequencies that correlate to a huge number of different meanings. When herring school, they communicate by farting. Many deep sea species glow in the dark with different patterns to communicate. Perch males dance to impress females. And that’s just a few!",
+    "Barbels are sensory filaments that can look a bit like whiskers. In fact, the word comes from the Latin word for Little Beard. Fish use them to smell, taste, and feel their surroundings. Barbels are often found on bottom-feeding fish or fish that live in water with low visibility. Some examples of fish with barbels: cod, carp, sturgeon, and catfish.",
+    "Globally, fish stocks are estimated to be at only 10% of their historic numbers. Sadly, the vast majority of commercially targeted fish are considered to be overexploited. This number is difficult to calculate, as it can be hard to document illegal fishing operations, but even with often unreliable catch data, scientists can compare current species population numbers to historical numbers and get a fairly good sense of how overharvesting has affected them. Fishing is not inherently bad, but when fish populations decline too much, there are serious ecological implications with long-term effects. ",
+    "Rockfish, Sebastidae, are a diverse group of fish with amazing life histories. Many species can live to around 200 years. They grow slowly and get better at reproducing the older and bigger they get (some don’t start reproducing until they are in their 20’s!). Unfortunately most rockfish populations are only a fraction of their historical size and face substantial fishing pressure. Rockfish are sometimes incorrectly called Rock Cod, Snapper, or Sea Bass.",
+    "An operculum is a bony flap that protects the gills of a fish. The nostrils of a fish (a) are called nares. c is the adipose fin, d is the lateral line.",
 ]
 
 module.exports = {
