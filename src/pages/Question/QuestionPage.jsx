@@ -16,7 +16,9 @@ export default function QuestionPage({ quesAns, choices, setChoices, current, se
             <h1>Question { current + 1 }</h1>
             <div>{ questions[current] }</div>
             <br/>
-            <div>{ answers[current] }</div>
+            <div class="container">
+                <div class="answer-card">{ answers[current] }</div>
+            </div>
         </div>
     )
 };

@@ -18,7 +18,7 @@ export default function AnswerCard({ answer, choices, setChoices, setScore, scor
     return (
         <div>
             <form onSubmit={handleAddChoice}>
-                <input 
+                <input
                     type="radio" 
                     value={ answer[0] } 
                     name="choice" 
