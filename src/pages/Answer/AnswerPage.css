@@ -1,0 +1,12 @@
+.answer-is {
+    font-weight: bold;
+    color: teal;
+}
+
+.explanation {
+    max-width: 50vw;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    line-height: 1.5;
+    color: lightcyan;
+}

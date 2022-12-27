@@ -140,10 +140,10 @@ const explanations = [
 ]
 
 const images = [
+    "https://i.imgur.com/ELPsbB0.png",
     "https://i.imgur.com/7kALN1w.png",
-    "'samplehtml'",
-    "samplehtml",
-    "samplehtml",
+    "https://i.imgur.com/BtSXY7F.png",
+    "https://i.imgur.com/RTAJ4Zw.png",
     "samplehtml",
     "samplehtml",
     "samplehtml",
