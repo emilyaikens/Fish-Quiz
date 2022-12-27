@@ -2,7 +2,7 @@ import './AnswerPage.css';
 import { React } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-export default function AnswerPage({ current, setCurrent, correctAnswers, choices, explanations }) {
+export default function AnswerPage({ current, setCurrent, correctAnswers, choices, explanations, images }) {
 
     const navigate = useNavigate();
 
@@ -24,7 +24,7 @@ export default function AnswerPage({ current, setCurrent, correctAnswers, choice
 
     return (
         <div>
-            <h1>Answer Page</h1>
+            <img class="fish-image" src={images[current]} alt="fish"></img>
             <div>{message}</div>
             <div>{correctAnswers[current]}</div>
             <div>{explanations[current]}</div>
