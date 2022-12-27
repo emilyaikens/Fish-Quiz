@@ -18,32 +18,50 @@ export default function AnswerCard({ answer, choices, setChoices, setScore, scor
     return (
         <div>
             <form onSubmit={handleAddChoice}>
-                <input
-                    type="radio" 
-                    value={ answer[0] } 
-                    name="choice" 
-                    onChange={(evt) => setInput(evt.target.value)} 
-                    /> { answer[0] } <br/>
-                <input 
-                    type="radio" 
-                    value={ answer[1] } 
-                    name="choice" 
-                    onChange={(evt) => setInput(evt.target.value)} 
-                    /> { answer[1] } <br/>
-                <input 
-                    type="radio" 
-                    value={ answer[2] } 
-                    name="choice" 
-                    onChange={(evt) => setInput(evt.target.value)} 
-                    /> { answer[2] } <br/>
-                <input 
-                    type="radio" 
-                    value={ answer[3] } 
-                    name="choice" 
-                    onChange={(evt) => setInput(evt.target.value)} 
-                    /> { answer[3] } <br/>
+                <div class="answer-row">
+                    <input
+                        type="radio" 
+                        value={ answer[0] } 
+                        name="choice"
+                        id="first"
+                        onChange={(evt) => setInput(evt.target.value)} 
+                        /> 
+                    <label for="first">{ answer[0] }</label> <br/>
+                </div>
+                <div class="answer-row">
+                    <input 
+                        type="radio" 
+                        value={ answer[1] } 
+                        name="choice" 
+                        id="second"
+                        onChange={(evt) => setInput(evt.target.value)} 
+                        /> 
+                    <label for="second">{ answer[1] }</label> <br/>
+                </div>
+                <div class="answer-row">
+                    <input 
+                        type="radio" 
+                        value={ answer[2] } 
+                        name="choice" 
+                        id="third"
+                        onChange={(evt) => setInput(evt.target.value)} 
+                        /> 
+                    <label for="third">{ answer[2] }</label> <br/>
+                </div>
+                <div class="answer-row">
+                    <input 
+                        type="radio" 
+                        value={ answer[3] } 
+                        name="choice" 
+                        id="fourth"
+                        onChange={(evt) => setInput(evt.target.value)} 
+                        /> 
+                    <label for="fourth">{ answer[3] }</label> <br/>
+                </div>
                 <br/>
+                <div class="question-button">
                 <button type="submit">Next</button>
+                </div>
             </form>
         </div>
     )

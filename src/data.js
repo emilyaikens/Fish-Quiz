@@ -2,7 +2,7 @@ const quesAns = [
     {
         "question": "What does it mean if a fish is described as 'pelagic'?",
         "answer": [
-            "It lives in the water column",
+            "It lives mid-water or open ocean",
             "It lives near the bottom",
             "It lives in seaweed",
             "It lives in coral"
@@ -110,7 +110,7 @@ const quesAns = [
 ]
 
 const correctAnswers = [
-    "It lives in the water column",
+    "It lives mid-water or open ocean",
     "The inner ear bone of a fish",
     "Maintaining buoyancy",
     "30,000",

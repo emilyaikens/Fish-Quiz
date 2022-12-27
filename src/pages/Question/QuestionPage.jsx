@@ -13,7 +13,6 @@ export default function QuestionPage({ quesAns, choices, setChoices, current, se
     return (
         <div>
             <img class="fish-image" src={images[current]} alt="fish"></img>
-            <h2>Question { current + 1 }</h2>
             <h3>{ questions[current] }</h3>
             <br/>
             <div class="container">

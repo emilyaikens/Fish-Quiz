@@ -7,6 +7,25 @@
     text-align: left;
 }
 
-input {
-    margin-bottom: 15px;
+input[type=radio] {
+    
+    cursor: pointer;
+    border: 0px;
+    transform: scale(2);
+    accent-color: teal;
+}
+
+label {
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.answer-row {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.answer-row:hover {
+    padding: 10px;
+    border: teal solid 4px;
 }
