@@ -2,7 +2,7 @@ import './QuestionPage.css';
 import QuestionCard from '../../components/QuestionCard';
 import AnswerCard from '../../components/AnswerCard';
 
-export default function QuestionPage({ quesAns, choices, setChoices, current, setScore, score, correctAnswers }) {
+export default function QuestionPage({ quesAns, choices, setChoices, current, setScore, score, correctAnswers, images }) {
 
     const questions = quesAns.map((value, index) =>
         <QuestionCard key={index + 100} index={index} question={value.question} />)
@@ -12,6 +12,7 @@ export default function QuestionPage({ quesAns, choices, setChoices, current, se
 
     return (
         <div>
+            <img class="fish-image" src={images[current]} alt="fish"></img>
             <h1>Question { current + 1 }</h1>
             <div>{ questions[current] }</div>
             <br/>

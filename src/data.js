@@ -133,15 +133,31 @@ const explanations = [
     "Salmon are the best known example of anadromy, although lamprey and surgeons are also anadromous. These fish are born in freshwater but migrate to the ocean to mature. They then travel back to freshwater to reproduce. The opposite of this is catadromy. ",
     "Sharks, rays, skates, sawfish, and ratfish are all examples of cartilaginous fish. Cartilaginous fish are all in a class called Chondrichthyes and share a number of features, including a skeleton made mostly out of cartilage rather than bone.",
     "Fish can communicate in so many ways! It varies immensely from species to species, but fish can have incredibly complex communication methods. Some cool examples: Rockfish grunt to one another and have a variation in grunt tones and frequencies that correlate to a huge number of different meanings. When herring school, they communicate by farting. Many deep sea species glow in the dark with different patterns to communicate. Perch males dance to impress females. And that’s just a few!",
-    "Barbels are sensory filaments that can look a bit like whiskers. In fact, the word comes from the Latin word for Little Beard. Fish use them to smell, taste, and feel their surroundings. Barbels are often found on bottom-feeding fish or fish that live in water with low visibility. Some examples of fish with barbels: cod, carp, sturgeon, and catfish.",
+    "Barbels are sensory filaments that can look a like whiskers. In fact, the word comes from the Latin word for Little Beard. Fish use them to smell, taste, and feel their surroundings. Barbels are often found on bottom-feeding fish or fish that live in water with low visibility. Some examples of fish with barbels: cod, carp, sturgeon, and catfish.",
     "Globally, fish stocks are estimated to be at only 10% of their historic numbers. Sadly, the vast majority of commercially targeted fish are considered to be overexploited. This number is difficult to calculate, as it can be hard to document illegal fishing operations, but even with often unreliable catch data, scientists can compare current species population numbers to historical numbers and get a fairly good sense of how overharvesting has affected them. Fishing is not inherently bad, but when fish populations decline too much, there are serious ecological implications with long-term effects. ",
     "Rockfish, Sebastidae, are a diverse group of fish with amazing life histories. Many species can live to around 200 years. They grow slowly and get better at reproducing the older and bigger they get (some don’t start reproducing until they are in their 20’s!). Unfortunately most rockfish populations are only a fraction of their historical size and face substantial fishing pressure. Rockfish are sometimes incorrectly called Rock Cod, Snapper, or Sea Bass.",
     "An operculum is a bony flap that protects the gills of a fish. The nostrils of a fish (a) are called nares. c is the adipose fin, d is the lateral line.",
+]
+
+const images = [
+    "https://i.imgur.com/7kALN1w.png",
+    "'samplehtml'",
+    "samplehtml",
+    "samplehtml",
+    "samplehtml",
+    "samplehtml",
+    "samplehtml",
+    "samplehtml",
+    "samplehtml",
+    "samplehtml",
+    "samplehtml",
+    "samplehtml",
 ]
 
 module.exports = {
     quesAns,
     correctAnswers,
     explanations,
+    images,
 }
 
