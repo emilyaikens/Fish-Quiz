@@ -14,9 +14,9 @@ export default function LandingPage({ setQuizStatus }) {
 
     return (
         <div>
+            <br></br>
             <img class="fish-image" src="https://i.imgur.com/BtSXY7F.png"></img>
             <h1 class="landing-title">Fish Quiz</h1>
-            {/* <h4>How much do you know about fish?</h4> */}
             <br></br>
             <button class="start-button" onClick={handleSetQuiz}>Start</button>
         </div>
