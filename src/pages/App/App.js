@@ -22,7 +22,6 @@ function App() {
       <div class="App">
         {quizStatus === "landing"?
           <>
-            <h1>Fish Quiz</h1>
             <LandingPage setQuizStatus={setQuizStatus} />
           </>
           :
