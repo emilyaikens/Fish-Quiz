@@ -1,7 +1,7 @@
 import './ResultPage.css';
 import { useNavigate } from 'react-router-dom';
 
-export default function ResultPage({ score, setQuizStatus }) {
+export default function ResultPage({ score, setQuizStatus, setChoices, setCurrent }) {
 
     const navigate = useNavigate();
 
@@ -15,7 +15,9 @@ export default function ResultPage({ score, setQuizStatus }) {
 
     function handleClick(evt) {
         evt.preventDefault();
-        setQuizStatus("landing")
+        setQuizStatus("landing");
+        setChoices("");
+        setCurrent(0);
         navigate("/");
     }
 

@@ -118,7 +118,7 @@ const correctAnswers = [
     "It migrates from the ocean to freshwater to spawn",
     "Leopard Shark",
     "All of the above",
-    "a",
+    "Fleshy projections often found on the chins and noses of certain fish",
     "10%",
     "rockfish",
     "b",
@@ -145,13 +145,13 @@ const images = [
     "https://i.imgur.com/BtSXY7F.png",
     "https://i.imgur.com/RTAJ4Zw.png",
     "https://i.imgur.com/uOE3aHY.png",
-    "https://i.imgur.com/vbBOGnp.png",
+    "salmon",
     "https://i.imgur.com/7e2qO3e.png",
-    "samplehtml",
-    "samplehtml",
-    "samplehtml",
     "https://i.imgur.com/3qgMlT2.png",
-    "samplehtml",
+    "cod",
+    "https://i.imgur.com/vbBOGnp.png",
+    "rockfish",
+    "operculum",
 ]
 
 module.exports = {
