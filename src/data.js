@@ -58,7 +58,7 @@ const quesAns = [
         "answer": [
             "Yellowtail Rockfish",
             "Swordfish",
-            "Great White Shark",
+            "Leopard Shark",
             "Hagfish"
         ]
     },    
@@ -116,7 +116,7 @@ const correctAnswers = [
     "30,000",
     "All of the above",
     "It migrates from the ocean to freshwater to spawn",
-    "Great White Shark",
+    "Leopard Shark",
     "All of the above",
     "a",
     "10%",
@@ -144,13 +144,13 @@ const images = [
     "https://i.imgur.com/7kALN1w.png",
     "https://i.imgur.com/BtSXY7F.png",
     "https://i.imgur.com/RTAJ4Zw.png",
-    "samplehtml",
+    "https://i.imgur.com/uOE3aHY.png",
     "https://i.imgur.com/vbBOGnp.png",
     "samplehtml",
     "samplehtml",
     "samplehtml",
     "samplehtml",
-    "samplehtml",
+    "https://i.imgur.com/3qgMlT2.png",
     "samplehtml",
 ]
 
