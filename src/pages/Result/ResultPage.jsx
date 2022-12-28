@@ -8,7 +8,7 @@ export default function ResultPage({ score, setQuizStatus, setChoices, setCurren
     let message = "you're a fish expert!"
 
     if (score <= 4) {
-        message = "You really need to learn more about fish"
+        message = "You really need to learn more about fish!"
     } else if (score <= 8 && score > 4 ) {
         message = "Not horrible"
     }
@@ -23,10 +23,11 @@ export default function ResultPage({ score, setQuizStatus, setChoices, setCurren
 
     return (
         <div>
-            <h1>Result Page</h1>
-            <div>You scored {score}/12</div>
+            <br></br>
+            <h1>You scored {score}/12</h1>
             <div>{message}</div>
-            <button onClick={handleClick}>Start Over</button>
+            <br></br>
+            <button class="start-over" onClick={handleClick}>Start Over</button>
         </div>
     )
 };
