@@ -1,6 +1,9 @@
 .App {
   text-align: center;
   font-size: 150%;
+  color: lightcyan;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 1.5px;
 }
 
 .fish-image {

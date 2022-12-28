@@ -54,7 +54,7 @@ const quesAns = [
         ]
     },    
     {
-        "question": "Which of these fish has a cartilaginous skeleton??",
+        "question": "Which of these fish has a cartilaginous skeleton?",
         "answer": [
             "Yellowtail Rockfish",
             "Swordfish",
@@ -81,7 +81,7 @@ const quesAns = [
         ]
     },    
     {
-        "question": "Global fish stocks are at ____% of their historic numbers",
+        "question": "Global fish stocks are at what percent of their historic numbers?",
         "answer": [
             "70%",
             "50%",
