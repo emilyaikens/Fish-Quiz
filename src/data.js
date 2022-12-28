@@ -146,7 +146,7 @@ const images = [
     "https://i.imgur.com/RTAJ4Zw.png",
     "https://i.imgur.com/uOE3aHY.png",
     "https://i.imgur.com/vbBOGnp.png",
-    "samplehtml",
+    "https://i.imgur.com/7e2qO3e.png",
     "samplehtml",
     "samplehtml",
     "samplehtml",
