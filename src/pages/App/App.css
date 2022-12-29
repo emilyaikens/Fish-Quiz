@@ -42,4 +42,7 @@ button:hover {
   .App {
     font-size: 110%;
   }
+  button {
+    margin-bottom: 30px;
+  }
 }
