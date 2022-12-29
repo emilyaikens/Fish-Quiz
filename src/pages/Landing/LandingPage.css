@@ -1,0 +1,10 @@
+.landing-title {
+    font-family: 'Lobster', cursive;
+    font-size: 350%;
+    color: teal;
+}
+.start-button {
+    width: 150px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}

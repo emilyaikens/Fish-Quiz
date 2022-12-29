@@ -1,0 +1,32 @@
+.container {
+    text-align: center;
+}
+
+.answer-card {
+    display: inline-block;
+    text-align: left;
+}
+
+input[type=radio] {
+    
+    cursor: pointer;
+    border: 0px;
+    transform: scale(2);
+    accent-color: teal;
+}
+
+label {
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.answer-row {
+    padding: 10px;
+    border-radius: 10px;
+    border: black solid 4px;
+}
+
+.answer-row:hover {
+    padding: 10px;
+    border: teal solid 4px;
+}

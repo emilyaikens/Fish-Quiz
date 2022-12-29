@@ -1,0 +1,15 @@
+.start-over {
+    width: 210px;
+    height: 80px;
+    border-radius: 5px;
+}
+
+.score {
+    font-family: 'Lobster', cursive;
+    font-size: 250%;
+    color: lightblue
+}
+
+.large {
+    color: teal;
+}

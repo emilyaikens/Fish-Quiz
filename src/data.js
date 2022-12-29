@@ -2,7 +2,7 @@ const quesAns = [
     {
         "question": "What does it mean if a fish is described as 'pelagic'?",
         "answer": [
-            "It lives in the water column",
+            "It lives mid-water or open ocean",
             "It lives near the bottom",
             "It lives in seaweed",
             "It lives in coral"
@@ -54,11 +54,11 @@ const quesAns = [
         ]
     },    
     {
-        "question": "Which of these fish has a cartilaginous skeleton??",
+        "question": "Which of these fish has a cartilaginous skeleton?",
         "answer": [
             "Yellowtail Rockfish",
             "Swordfish",
-            "Great White Shark",
+            "Leopard Shark",
             "Hagfish"
         ]
     },    
@@ -81,7 +81,7 @@ const quesAns = [
         ]
     },    
     {
-        "question": "Global fish stocks are at ____% of their historic numbers",
+        "question": "Global fish stocks are at what percent of their historic numbers?",
         "answer": [
             "70%",
             "50%",
@@ -110,18 +110,18 @@ const quesAns = [
 ]
 
 const correctAnswers = [
-    "It lives in the water column",
+    "It lives mid-water or open ocean",
     "The inner ear bone of a fish",
     "Maintaining buoyancy",
     "30,000",
     "All of the above",
     "It migrates from the ocean to freshwater to spawn",
-    "Great White Shark",
+    "Leopard Shark",
     "All of the above",
-    "a",
+    "Fleshy projections often found on the chins and noses of certain fish",
     "10%",
     "rockfish",
-    "b",
+    "a",
 ]
 
 const explanations = [
@@ -136,22 +136,22 @@ const explanations = [
     "Barbels are sensory filaments that can look a like whiskers. In fact, the word comes from the Latin word for Little Beard. Fish use them to smell, taste, and feel their surroundings. Barbels are often found on bottom-feeding fish or fish that live in water with low visibility. Some examples of fish with barbels: cod, carp, sturgeon, and catfish.",
     "Globally, fish stocks are estimated to be at only 10% of their historic numbers. Sadly, the vast majority of commercially targeted fish are considered to be overexploited. This number is difficult to calculate, as it can be hard to document illegal fishing operations, but even with often unreliable catch data, scientists can compare current species population numbers to historical numbers and get a fairly good sense of how overharvesting has affected them. Fishing is not inherently bad, but when fish populations decline too much, there are serious ecological implications with long-term effects. ",
     "Rockfish, Sebastidae, are a diverse group of fish with amazing life histories. Many species can live to around 200 years. They grow slowly and get better at reproducing the older and bigger they get (some don’t start reproducing until they are in their 20’s!). Unfortunately most rockfish populations are only a fraction of their historical size and face substantial fishing pressure. Rockfish are sometimes incorrectly called Rock Cod, Snapper, or Sea Bass.",
-    "An operculum is a bony flap that protects the gills of a fish. The nostrils of a fish (a) are called nares. c is the adipose fin, d is the lateral line.",
+    "An operculum is a bony flap that protects the gills of a fish. b is the dorsal fin, c is the pectoral fin, and d is the caudal fin.",
 ]
 
 const images = [
+    "https://i.imgur.com/ELPsbB0.png",
     "https://i.imgur.com/7kALN1w.png",
-    "'samplehtml'",
-    "samplehtml",
-    "samplehtml",
-    "samplehtml",
-    "samplehtml",
-    "samplehtml",
-    "samplehtml",
-    "samplehtml",
-    "samplehtml",
-    "samplehtml",
-    "samplehtml",
+    "https://i.imgur.com/BtSXY7F.png",
+    "https://i.imgur.com/RTAJ4Zw.png",
+    "https://i.imgur.com/uOE3aHY.png",
+    "https://i.imgur.com/6q7pXGs.png",
+    "https://i.imgur.com/LXeuXrH.png",
+    "https://i.imgur.com/3qgMlT2.png",
+    "https://i.imgur.com/3x9f0OJ.png",
+    "https://i.imgur.com/vbBOGnp.png",
+    "https://i.imgur.com/FsDivnP.png",
+    "https://i.imgur.com/l4t9F0I.png",
 ]
 
 module.exports = {

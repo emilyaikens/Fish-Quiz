@@ -2,7 +2,7 @@ import './LandingPage.css';
 import { useNavigate } from 'react-router-dom';
 
 
-export default function LandingPage({ setQuizStatus }) {
+export default function LandingPage({ setQuizStatus, fish }) {
 
     const navigate = useNavigate();
 
@@ -14,8 +14,11 @@ export default function LandingPage({ setQuizStatus }) {
 
     return (
         <div>
-            <h1>Landing Page</h1>
-            <button onClick={handleSetQuiz}>Start</button>
+            <br></br>
+            <img class="fish-image" src={fish}></img>
+            <h1 class="landing-title">Fish Quiz</h1>
+            <br></br>
+            <button class="start-button" onClick={handleSetQuiz}>Start</button>
         </div>
     )
 };
