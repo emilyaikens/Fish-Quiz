@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-export default function AnswerCard({ answer, setChoices, setScore, score, correctAnswers, current }) {
+export default function AnswerCard({ answer, setChoices, setScore, score, correctAnswers, current }) { // props from QuestionPage
 
     const navigate = useNavigate();
 
