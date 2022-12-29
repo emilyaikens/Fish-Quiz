@@ -121,7 +121,7 @@ const correctAnswers = [
     "Fleshy projections often found on the chins and noses of certain fish",
     "10%",
     "rockfish",
-    "b",
+    "a",
 ]
 
 const explanations = [
@@ -145,13 +145,13 @@ const images = [
     "https://i.imgur.com/BtSXY7F.png",
     "https://i.imgur.com/RTAJ4Zw.png",
     "https://i.imgur.com/uOE3aHY.png",
-    "salmon",
-    "https://i.imgur.com/7e2qO3e.png",
+    "https://i.imgur.com/6q7pXGs.png",
+    "https://i.imgur.com/LXeuXrH.png",
     "https://i.imgur.com/3qgMlT2.png",
-    "cod",
+    "https://i.imgur.com/3x9f0OJ.png",
     "https://i.imgur.com/vbBOGnp.png",
-    "rockfish",
-    "operculum",
+    "https://i.imgur.com/FsDivnP.png",
+    "https://i.imgur.com/l4t9F0I.png",
 ]
 
 module.exports = {
