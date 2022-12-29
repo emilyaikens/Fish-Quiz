@@ -1,7 +1,7 @@
 import './ResultPage.css';
 import { useNavigate } from 'react-router-dom';
 
-export default function ResultPage({ score, setQuizStatus, setChoices, setCurrent }) {
+export default function ResultPage({ score, setQuizStatus, setChoices, setCurrent, fish }) {
 
     const navigate = useNavigate();
 
@@ -23,9 +23,11 @@ export default function ResultPage({ score, setQuizStatus, setChoices, setCurren
 
     return (
         <div>
+            <img class="fish-image" src={fish}></img>
+            <h1 class="score"><span class="large"> Score: </span> {score}/12</h1>
             <br></br>
-            <h1>You scored {score}/12</h1>
             <div>{message}</div>
+            <br></br>
             <br></br>
             <button class="start-over" onClick={handleClick}>Start Over</button>
         </div>

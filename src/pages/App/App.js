@@ -17,18 +17,20 @@ function App() {
   const [current, setCurrent] = useState(0);
   const [score, setScore] = useState(0);
 
+  const fish = images[(Math.floor(Math.random() * 11))];
+
   return (
     <div>
       <div class="App">
         {quizStatus === "landing"?
           <>
-            <LandingPage setQuizStatus={setQuizStatus} images={images} />
+            <LandingPage setQuizStatus={setQuizStatus} fish={fish} />
           </>
           :
           <Routes>
             < Route path="/question" element={<QuestionPage quesAns={quesAns} setChoices={setChoices} current={current} setScore={setScore} score={score} correctAnswers={correctAnswers} images={images} />} />
             < Route path="/answer" element={<AnswerPage correctAnswers={correctAnswers} choices={choices} current={current} setCurrent={setCurrent} explanations={explanations} images={images} />} />
-            < Route path="/result" element={<ResultPage score={score} setQuizStatus={setQuizStatus} setChoices={setChoices} setCurrent={setCurrent}/>} />
+            < Route path="/result" element={<ResultPage score={score} setQuizStatus={setQuizStatus} setChoices={setChoices} setCurrent={setCurrent} fish={fish}/>} />
           </Routes>
         }
       </div>
