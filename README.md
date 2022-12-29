@@ -4,8 +4,6 @@
 
 [Test your fish knowledge](https://fish-quiz.netlify.app/)
 
-Please note, this site is not mobile-friendly yet
-
 ## Description:
 
 Fish Quiz is a React app designed to test fish knowledge. This app was designed for Harvard CS50's Final Project.
