@@ -3,21 +3,28 @@ import QuestionPage from '../Question/QuestionPage';
 import AnswerPage from '../Answer/AnswerPage';
 import ResultPage from '../Result/ResultPage';
 import LandingPage from '../Landing/LandingPage';
-import { quesAns } from '../../data';
-import { correctAnswers } from '../../data';
-import { explanations } from '../../data';
-import { images } from '../../data';
-import { Routes, Route } from 'react-router-dom';
+import { quesAns, correctAnswers, explanations, images } from '../../data';
+import { Routes, Route, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 
 function App() {
 
-  const [quizStatus, setQuizStatus] = useState("landing");
-  const [choices, setChoices] = useState("");
-  const [current, setCurrent] = useState(0);
-  const [score, setScore] = useState(0);
+  const [quizStatus, setQuizStatus] = useState("landing"); //determines whether landing page shows or not
+  const [choices, setChoices] = useState(""); //tracks user's answer
+  const [current, setCurrent] = useState(0); //tracks which question/answer the user is on
+  const [score, setScore] = useState(0); //tracks score
 
-  const fish = images[(Math.floor(Math.random() * 11))];
+  const fish = images[(Math.floor(Math.random() * 11))]; //select random fish image from images array
+
+  const navigate = useNavigate();
+
+  // If user uses the browser 'back' button the quiz will restart and they will be redirected to landing page
+  window.addEventListener('popstate', (event) => {
+    setQuizStatus("landing");
+    setChoices("");
+    setCurrent(0);
+    navigate("/");
+  });
 
   return (
     <div>
