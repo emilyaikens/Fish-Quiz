@@ -24,6 +24,7 @@ button {
   text-transform: uppercase;
   background-color: teal;
   color: white;
+  margin-bottom: 40px;
 }
 
 button:hover {
@@ -41,8 +42,5 @@ button:hover {
 @media only screen and (max-width: 600px) {
   .App {
     font-size: 110%;
-  }
-  button {
-    margin-bottom: 30px;
   }
 }
