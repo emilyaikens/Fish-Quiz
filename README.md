@@ -29,6 +29,8 @@ Why React? React is a SPA (single page application) that updates its UI in place
 
 ## Credits
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+
+All digital art was created by me, [Emily Aikens](https://www.instagram.com/paintedsculpinart/?hl=en), please do not use without permission
 
 Marine Conservation Society's quiz: ["How much do you know about fish?"](https://8rjae5r2z61.typeform.com/to/wGIgZsJ2?typeform-source=www.linkedin.com)
