@@ -8,7 +8,7 @@ export default function QuestionPage({ quesAns, choices, setChoices, current, se
         <QuestionCard key={index + 100} index={index} question={value.question} />)
 
     const answers = quesAns.map((value, index) =>
-        <AnswerCard key={index} index={index} answer={value.answer} setChoices={setChoices} choices={choices} setScore={setScore} score={score} correctAnswers={correctAnswers} current={current}/>)
+        <AnswerCard key={index} index={index} answer={value.answer} setChoices={setChoices} setScore={setScore} score={score} correctAnswers={correctAnswers} current={current}/>)
 
     return (
         <div>
