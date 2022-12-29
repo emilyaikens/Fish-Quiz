@@ -15,7 +15,7 @@ export default function LandingPage({ setQuizStatus, fish }) { // props from App
     return (
         <div>
             <br></br>
-            <img class="fish-image" src={fish}></img>
+            <img class="fish-image" src={fish} alt="fish"></img>
             <h1 class="landing-title">Fish Quiz</h1>
             <br></br>
             <button class="start-button" onClick={handleSetQuiz}>Start</button>

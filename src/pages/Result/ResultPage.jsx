@@ -24,7 +24,7 @@ export default function ResultPage({ score, setQuizStatus, setChoices, setCurren
 
     return (
         <div>
-            <img class="fish-image" src={fish}></img>
+            <img class="fish-image" src={fish} alt="fish"></img>
             <h1 class="score"><span class="large"> Score: </span> {score}/12</h1>
             <br></br>
             <div>{message}</div>
