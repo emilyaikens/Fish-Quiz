@@ -2,17 +2,18 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 export default function AnswerCard({ answer, setChoices, setScore, score, correctAnswers, current }) {
+
     const navigate = useNavigate();
 
-    const [input, setInput] = useState("");
+    const [input, setInput] = useState(""); // keep track of form data, update radios as clicked
 
-    function handleAddChoice(evt) {
+    function handleAddChoice(evt) { // when form is submitted
         evt.preventDefault();
-        setChoices(input);
-        if (input === correctAnswers[current]) {
-            setScore(score + 1);
+        setChoices(input); // update choices prop
+        if (input === correctAnswers[current]) { // if user choice is correct answer
+            setScore(score + 1); // update score by 1
         };
-        navigate("/answer");
+        navigate("/answer"); // navigate to answer page
     }
 
     return (
