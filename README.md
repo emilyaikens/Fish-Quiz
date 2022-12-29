@@ -1,8 +1,10 @@
 # Fish Quiz
 
+![LandingPage](https://i.imgur.com/grlue8M.png)
+
 ## Description:
 
-Fish Quiz is a React app designed to test general fish knowledge. This app was designed for Harvard CS50's Final Project.
+Fish Quiz is a React app designed to test fish knowledge. This app was designed for Harvard CS50's Final Project.
 
 This project was inspired by the Marine Conservation Society's quiz: ["How much do you know about fish?"](https://8rjae5r2z61.typeform.com/to/wGIgZsJ2?typeform-source=www.linkedin.com). I stumbled across this quiz and, as a self-proclaimed fish nerd, I could not resist the chance to show off my skills. I scored 13/15, disappointing for certain, but I the only two I got wrong were about UK-specific conservation issues so I didn't get let myself get too down about the less-than-perfect score. My biggest takeaway from the quiz was how much I enjoyed the overall experience. Appealing topic aside, I found that the UI/UX was fantastic, the artwork was beautiful (there's digital fish drawings accompanying most of the questions), and the functionality was fantastic. I decided that I would like to recreate it, but with questions that were more catered towards the marine environment that I'm most familiar with: the Northeast Pacific. It would also give me an opportunity to do some of my own digital fish drawings and try on that illustration style. 
 

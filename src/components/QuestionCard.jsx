@@ -1,5 +1,5 @@
 
-export default function QuestionCard({ question }) {
+export default function QuestionCard({ question }) { // props from QuestionPage
 
     return (
         <div>
