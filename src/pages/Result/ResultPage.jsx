@@ -5,6 +5,7 @@ export default function ResultPage({ score, setQuizStatus, setChoices, setCurren
 
     const navigate = useNavigate();
 
+    // below, line 9 - 15, logic to determine the result message based on score
     let message = "you're a fish expert!"
 
     if (score <= 4) {
@@ -13,7 +14,7 @@ export default function ResultPage({ score, setQuizStatus, setChoices, setCurren
         message = "Not horrible"
     }
 
-    function handleClick(evt) {
+    function handleClick(evt) { // when user clicks "start over", reset useStates and navigate to landing page
         evt.preventDefault();
         setQuizStatus("landing");
         setChoices("");
