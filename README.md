@@ -1,6 +1,10 @@
 # Fish Quiz
 
-![LandingPage](https://i.imgur.com/grlue8M.png)
+## Deployment: 
+
+[Test your fish knowledge](https://fish-quiz.netlify.app/)
+
+Please note, this site is not mobile-friendly yet
 
 ## Description:
 
@@ -11,6 +15,10 @@ This project was inspired by the Marine Conservation Society's quiz: ["How much 
 When faced with the prospect of designing a final project for my Harvard CS50 course, I decided that this would be the perfect opportunity to try out my version of this fish quiz.
 
 Why React? React is a SPA (single page application) that updates its UI in place, rather than essentially replacing the entire web page every time the user interacts with it. In other words, it is a JavaScript library that allows for dynamic UIs. I chose to use this library because I wanted the ability to transition between components (one question at a time) without reloading the page. React's State Hooks would allow user input to persist without having to store the answers to a database.
+
+## Screenshot:
+
+![LandingPage](https://i.imgur.com/grlue8M.png)
 
 ## Technologies
 
