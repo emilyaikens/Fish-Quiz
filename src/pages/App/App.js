@@ -22,7 +22,7 @@ function App() {
       <div class="App">
         {quizStatus === "landing"?
           <>
-            <LandingPage setQuizStatus={setQuizStatus} />
+            <LandingPage setQuizStatus={setQuizStatus} images={images} />
           </>
           :
           <Routes>

@@ -2,7 +2,7 @@ import './LandingPage.css';
 import { useNavigate } from 'react-router-dom';
 
 
-export default function LandingPage({ setQuizStatus }) {
+export default function LandingPage({ setQuizStatus, images }) {
 
     const navigate = useNavigate();
 
@@ -12,10 +12,12 @@ export default function LandingPage({ setQuizStatus }) {
         navigate("/question");
     }
 
+    const fish = (Math.floor(Math.random() * 11))
+
     return (
         <div>
             <br></br>
-            <img class="fish-image" src="https://i.imgur.com/BtSXY7F.png"></img>
+            <img class="fish-image" src={images[fish]}></img>
             <h1 class="landing-title">Fish Quiz</h1>
             <br></br>
             <button class="start-button" onClick={handleSetQuiz}>Start</button>
