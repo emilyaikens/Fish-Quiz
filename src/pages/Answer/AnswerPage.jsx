@@ -27,7 +27,7 @@ export default function AnswerPage({ current, setCurrent, correctAnswers, choice
         <div>
             <img class="fish-image" src={images[current]} alt="fish"></img>
             <h3>{message}</h3>
-            <div><span class="answer-is">The answer is: </span>{correctAnswers[current]}</div>
+            <div class="answer-message"><span class="answer-is">The answer is: </span>{correctAnswers[current]}</div>
             <br/>
             <div class="explanation">{explanations[current]}</div>
             <button class="answer-button" onClick={handleClick}>Next</button>

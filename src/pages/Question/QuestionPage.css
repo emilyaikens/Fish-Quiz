@@ -12,11 +12,13 @@ input[type=radio] {
     border: 0px;
     transform: scale(2);
     accent-color: teal;
+    float: left;
 }
 
 label {
     cursor: pointer;
-    margin-left: 15px;
+    margin-left: 40px;
+    display: block;
 }
 
 .answer-row {
@@ -28,4 +30,14 @@ label {
 .answer-row:hover {
     padding: 10px;
     border: teal solid 4px;
+}
+
+@media only screen and (max-width: 600px) {
+    .answer-row {
+        max-width: 80vw;
+    }
+    .question {
+        max-width: 80vw;
+        margin: 0 auto;
+    }
 }

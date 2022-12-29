@@ -10,3 +10,15 @@
     line-height: 1.5;
     color: lightcyan;
 }
+
+@media only screen and (max-width: 600px) {
+    .explanation {
+        max-width: 80vw;
+        padding-bottom: 30px;
+    }
+
+    .answer-message {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}

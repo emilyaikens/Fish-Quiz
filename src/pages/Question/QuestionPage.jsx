@@ -13,7 +13,7 @@ export default function QuestionPage({ quesAns, setChoices, current, setScore, s
     return (
         <div>
             <img class="fish-image" src={images[current]} alt="fish"></img>
-            <h3>{ questions[current] }</h3>
+            <h3 class="question">{ questions[current] }</h3>
             <br/>
             <div class="container">
                 <div class="answer-card">{ answers[current] }</div>
