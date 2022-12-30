@@ -31,6 +31,9 @@ export default function ResultPage({ score, setQuizStatus, setChoices, setCurren
             <br></br>
             <br></br>
             <button class="start-over" onClick={handleClick}>Start Over</button>
+            <footer>
+                <div> © 2022 <a href="https://www.emilyaikens.com">Emily Aikens</a> | <a href="https://github.com/emilyaikens/Fish-Quiz">Github</a> | <a href="https://www.linkedin.com/in/emilyaikens/">LinkedIn</a></div>
+            </footer>
         </div>
     )
 };

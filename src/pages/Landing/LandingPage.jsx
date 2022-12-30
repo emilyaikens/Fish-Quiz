@@ -19,6 +19,9 @@ export default function LandingPage({ setQuizStatus, fish }) { // props from App
             <h1 class="landing-title">Fish Quiz</h1>
             <br></br>
             <button class="start-button" onClick={handleSetQuiz}>Start</button>
+            <footer>
+                <div> © 2022 <a href="https://www.emilyaikens.com">Emily Aikens</a> | <a href="https://github.com/emilyaikens/Fish-Quiz">Github</a> | <a href="https://www.linkedin.com/in/emilyaikens/">LinkedIn</a></div>
+            </footer>
         </div>
     )
 };
