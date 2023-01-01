@@ -1,8 +1,10 @@
 # Fish Quiz
 
-## Deployment: 
+## Getting Started: 
 
-[Test your fish knowledge](https://fish-quiz.netlify.app/)
+[Click here to test it out](https://fish-quiz.netlify.app/)
+
+[Video Demo](https://youtu.be/oppSaexDcls)
 
 ## Description:
 
@@ -13,6 +15,8 @@ This project was inspired by the Marine Conservation Society's quiz: ["How much 
 When faced with the prospect of designing a final project for my Harvard CS50 course, I decided that this would be the perfect opportunity to try out my version of this fish quiz.
 
 Why React? React is a SPA (single page application) that updates its UI in place, rather than essentially replacing the entire web page every time the user interacts with it. In other words, it is a JavaScript library that allows for dynamic UIs. I chose to use this library because I wanted the ability to transition between components (one question at a time) without reloading the page. React's State Hooks would allow user input to persist without having to store the answers to a database.
+
+All content, including written content and digital art, was created by me. My background pre-computer science is in marine biology and graphic design.
 
 ## Screenshot:
 
@@ -32,5 +36,7 @@ Why React? React is a SPA (single page application) that updates its UI in place
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 
 All digital art was created by me, [Emily Aikens](https://www.instagram.com/paintedsculpinart/?hl=en), please do not use without permission
+
+All question, answer, and explanation content was written and created by me. 
 
 Marine Conservation Society's quiz: ["How much do you know about fish?"](https://8rjae5r2z61.typeform.com/to/wGIgZsJ2?typeform-source=www.linkedin.com)
