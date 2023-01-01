@@ -34,14 +34,15 @@ label {
     border: teal solid 4px;
 }
 
+.question {
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
 @media only screen and (max-width: 600px) {
     .answer-row {
         max-width: 80vw;
         max-height: 200px;
         padding: 0px;
-    }
-    .question {
-        max-width: 80vw;
-        margin: 0 auto;
     }
 }
