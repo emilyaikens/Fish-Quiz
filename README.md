@@ -2,9 +2,7 @@
 
 ## Getting Started: 
 
-[Click here to test it out](https://fish-quiz.netlify.app/)
-
-[Video Demo](https://youtu.be/oppSaexDcls)
+[Click here to test your fish knowledge](https://fish-quiz.netlify.app/)
 
 ## Description:
 
